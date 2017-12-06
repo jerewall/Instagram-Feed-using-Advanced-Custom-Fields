@@ -1,0 +1,117 @@
+    [
+    {
+        "key": "group_5a27f7d46a76b",
+        "title": "Instagram Feed",
+        "fields": [
+            {
+                "key": "field_5a27f845d64df",
+                "label": "Instagram Feed",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a27f8928b0a6",
+                "label": "User Id",
+                "name": "user_id",
+                "type": "text",
+                "instructions": "You can find your user id for free <a href=\"https:\/\/smashballoon.com\/instagram-feed\/find-instagram-user-id\/\" target=\"_blank\">here<\/a>",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a27f8a38b0a7",
+                "label": "Access Token",
+                "name": "access_token",
+                "type": "text",
+                "instructions": "In order to display your Instagram photos on your own website, you are required to provide an Instagram Access Token. You can generate one free <a href=\"http:\/\/instagram.pixelunion.net\/\" target=\"_blank\">here<\/a>.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a2816990966b",
+                "label": "Post Limit",
+                "name": "limit",
+                "type": "text",
+                "instructions": "Maximum of 60.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a28176c19ac7",
+                "label": "Sort By",
+                "name": "sort_by",
+                "type": "text",
+                "instructions": "Sorting is based of number of images returned, not entire collection.<br>\r\n<br>\r\nnone (default) - As they come from Instagram.<br>\r\nmost-recent - Newest to oldest.<br>\r\nleast-recent - Oldest to newest.<br>\r\nmost-liked - Highest # of likes to lowest.<br>\r\nleast-liked - Lowest # likes to highest.<br>\r\nmost-commented - Highest # of comments to lowest.<br>\r\nleast-commented - Lowest # of comments to highest.<br>\r\nrandom - Random order.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "Instagram-Feed-Options"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "left",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": "Import your instagram feed to your website with ease!"
+    }
+]

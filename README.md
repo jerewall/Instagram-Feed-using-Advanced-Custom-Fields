@@ -28,7 +28,7 @@ You need to add the following code to your functions (functions.php) file: ```if
 
 
 ## Instagram Theme Option Panel
-Just drop this file in the root of your wordpress theme. File Name: ```instagram-options.php```.
+Just drop this file in the root of your wordpress theme. File Name: ```instagram-options.php```
 
 
 ## The ACF Import File

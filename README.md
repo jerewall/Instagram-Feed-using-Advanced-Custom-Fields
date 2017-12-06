@@ -1,6 +1,5 @@
 # Instagram Feed using Advanced Custom Fields
-This lets you easily add an Intagram feed to any site without using plugins or code configuration. Its created using Advanced Custom Fields (ACF) and the main settings are done through the main panel using its own Instagram Feed tab. This script is based on Instafeed.js (https://github.com/stevenschobert/instafeed.js) by stevenschobert. 
- 
+This lets you easily add an Intagram feed to any site without using plugins or code configuration. Its created using Advanced Custom Fields (ACF) and the main settings are done through the main panel using its own Instagram Feed tab. This script is based on Instafeed.js (https://github.com/stevenschobert/instafeed.js) by stevenschobert. You will need a User ID and Access Token. Instructions to get these can be found within the Instagram ACF panel.
 
 ## The Javascript
 The javascript can be found within the global.js file. Add this to your websites global javascript/jQuery file or create your own. If you cannot create your own, you can add this to your websites head tag with a script tag using document ready but is not reccomended as the file is quite large. 

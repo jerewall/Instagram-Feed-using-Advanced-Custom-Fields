@@ -22,5 +22,6 @@ You need to add the following code to your functions file: ```if ( is_admin() ) 
 ## Instagram Theme Option Panel
 Just drop this file in the root of your wordpress theme. The name name is ```instagram-options.php```.
 
+
 ## The ACF Import File
-Just upload the included JSON file using ACF.
+Just upload the included JSON file using ACF. File name: ```instagram-acf-import.json```

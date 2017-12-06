@@ -13,6 +13,8 @@ The feed can load up to 60 images at a time, and will automatically load more im
 ```
 The images automatically link to a larger version of themselves using shadowbox with the original caption from Instagram. By default, this template will automatically pull the number of likes, users profie picture, and users images in most-recent order. 
 
+This script is responsive so it is desktop, tablet, and mobile friendly out of the box. If you need to tweak image sizes based on breakpoints, you can do so within the ```_instafeed.scss``` file. 
+
 ## The Javascript
 The javascript can be found within the global.js file. Add this to your websites global javascript/jQuery file or create your own. If you cannot create your own, you can add this to your websites head tag with a script tag using document ready but is not reccomended as the file is quite large. 
 

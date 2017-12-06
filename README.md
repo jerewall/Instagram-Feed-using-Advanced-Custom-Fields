@@ -12,7 +12,7 @@ EX: @import 'scss/instafeed';
 
 
 ## The HTML
-The only 2 thing's you need to add to your HTML is this div: ```<div id="instafeed"></div>``` and at the top, right before the ```</head>``` tag paste :
+The only 2 thing's you need to add to your HTML is this div: ```<div id="instafeed"></div>``` wherever you want the feed to display, and at the top of the page, right before the ```</head>``` tag paste :
 
 ``` javascript
        <script type="text/javascript">

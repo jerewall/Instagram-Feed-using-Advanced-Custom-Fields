@@ -15,10 +15,10 @@ The images automatically link to a larger version of themselves using shadowbox 
 
 This script is responsive so it is desktop, tablet, and mobile friendly out of the box. If you need to tweak image sizes based on breakpoints, you can do so within the ```_instafeed.scss``` file. 
 
-## The Backend Preview:
+### The Backend Preview:
 <img src="https://image.ibb.co/d0Zi4b/instafeed_panel.png">
 
-## The Front-End Preview
+### The Front-End Preview
 <img src="https://image.ibb.co/nDaUcw/preview.png">
 
 ## The Javascript

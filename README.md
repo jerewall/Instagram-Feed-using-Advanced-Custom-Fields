@@ -12,8 +12,16 @@ EX: @import 'scss/instafeed';
 
 
 ## The HTML
-The only thing you need to add to your HTML is this div: ```<div id="instafeed"></div>```
+The only 2 thing's you need to add to your HTML is this div: ```<div id="instafeed"></div>``` and at the top, right before the ```</head>``` tag paste :
 
+``` javascript
+       <script type="text/javascript">
+       var token = '<?php echo get_field('access_token', 'option'); ?>'
+       var user_id = '<?php echo get_field('user_id', 'option'); ?>'
+       var limit = '<?php echo get_field('limit', 'option'); ?>'
+       var sort_by = '<?php echo get_field('sort_by', 'option'); ?>'
+    </script>
+```
 
 ## The Functions
 You need to add the following code to your functions (functions.php) file: ```if ( is_admin() ) include_once get_template_directory() . '/instagram-options.php';```

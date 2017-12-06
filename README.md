@@ -21,6 +21,9 @@ This script is responsive so it is desktop, tablet, and mobile friendly out of t
 ### The Front-End Preview
 <img src="https://image.ibb.co/nDaUcw/preview.png">
 
+### Full Demo 
+A full demo of this script (tested) can be found here: http://jerewall.myregisteredwp.com/
+
 ## The Javascript
 The javascript can be found within the global.js file. Add this to your websites global javascript/jQuery file or create your own. If you cannot create your own, you can add this to your websites head tag with a script tag using document ready but is not reccomended as the file is quite large. 
 

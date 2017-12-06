@@ -20,7 +20,7 @@ You need to add the following code to your functions file: ```if ( is_admin() ) 
 
 
 ## Instagram Theme Option Panel
-Just drop this file in the root of your wordpress theme. The name name is ```instagram-options.php```.
+Just drop this file in the root of your wordpress theme. File Name: ```instagram-options.php```.
 
 
 ## The ACF Import File

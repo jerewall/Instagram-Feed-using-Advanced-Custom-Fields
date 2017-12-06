@@ -46,3 +46,6 @@ Just drop this file in the root of your wordpress theme. File Name: ```instagram
 
 ## The ACF Import File
 Just upload the included JSON file using ACF. File name: ```instagram-acf-import.json```
+
+## The Images
+Any images that are required can be found within the images folder, just move these to your images folder. They are used by shadowbox.

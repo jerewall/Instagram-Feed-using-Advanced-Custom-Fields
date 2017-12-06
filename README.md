@@ -15,8 +15,8 @@ EX: @import 'scss/instafeed';
 The only thing you need to add to your HTML is this div: ```<div id="instafeed"></div>```
 
 
-## Functions File (functions.php)
-You need to add the following code to your functions file: ```if ( is_admin() ) include_once get_template_directory() . '/instagram-options.php';```
+## The Functions
+You need to add the following code to your functions (functions.php) file: ```if ( is_admin() ) include_once get_template_directory() . '/instagram-options.php';```
 
 
 ## Instagram Theme Option Panel

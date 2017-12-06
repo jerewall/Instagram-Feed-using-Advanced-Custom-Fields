@@ -1,6 +1,18 @@
 # Instagram Feed using Advanced Custom Fields
 This lets you easily add an Intagram feed to any site without using plugins or code configuration. Its created using Advanced Custom Fields (ACF) and the main settings are done through the main panel using its own Instagram Feed tab. This script is based on Instafeed.js (https://github.com/stevenschobert/instafeed.js) by stevenschobert. You will need a User ID and Access Token. Instructions to get these can be found within the Instagram ACF panel.
 
+The feed can load up to 60 images at a time, and will automatically load more images when you scroll to the bottom of the page. If you wish to disable this feature, simply remove the following code from global.js
+
+```javascript
+ $(window).scroll(function () {
+         if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+             // call feed.next() once the page reaches the bottom
+             instaFeed.next();
+         }
+     });
+```
+The images automatically link to a larger version of themselves using shadowbox with the original caption from Instagram. By default, this template will automatically pull the number of likes, users profie picture, and users images in most-recent order. 
+
 ## The Javascript
 The javascript can be found within the global.js file. Add this to your websites global javascript/jQuery file or create your own. If you cannot create your own, you can add this to your websites head tag with a script tag using document ready but is not reccomended as the file is quite large. 
 
